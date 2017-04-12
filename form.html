@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>SPLASH</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans|Rubik" rel="stylesheet">
+</head>
+<body>
+    <header class="header_item header_form">
+    <div class="container">
+      <div class="logo">
+        <a href="index.html"></a>
+      </div>
+      <nav class="menu">
+        <ul>
+          <li><a href="catalog.html">Каталог</a></li>
+          <li><a href="#">Вопросы</a></li>
+          <li><a href="index.html#contact">Контакты</a></li>
+        </ul>
+      </nav>
+      <div class="basket">
+        <div class="basket_img"></div>
+        <a href="#">Корзина</a>
+      </div>
+      <div class="call">
+        <a href="#">Заказать обратный звонок</a>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="forma_main">
+      <div class="container container-no-hidden">
+        <div class="forma">
+          <h2 class="forma_title">Форма заказа</h2>
+          <div class="forma_block">
+            <div class="shopping_list">
+              <p class="shopping_list_name">Наименование</p>
+              <p class="shopping_list_amount">Количество</p><br>
+              <form>
+                <p class="shopping_list_p"><label>1. Аквариум 2567 Панорамный <input type="number" size="3" placeholder="1"></label></p>
+                <p class="shopping_list_p"><label>2. Сом пресноводный <input type="number" placeholder="5" size="3"></label></p>
+                <p class="shopping_list_p"><label>3. Золотая рыбка Обычная <input type="number" placeholder="3" size="3"></label></p>
+              </form>
+            </div>
+            <div class="delivery">
+              <form>
+              <div class="form_left">
+                <p><label id="delivety_choice">Способ доставки</label></p>
+                <p><label id="payment_choice">Способ оплаты</label></p>
+              </div>
+              <div class="form_right">
+                <p><select name="delivety_choice" id="delivety_choice">
+                  <option value="yourself" selected name="delivery_ch">самовывоз</option>
+                  <option value="courier" name="delivery_ch">курьером</option>
+                </select></p>
+                <p>
+                <select name="payment_choice" id="payment_choice">
+                  <option value="cash" selected name="payment_ch">наличными</option>
+                  <option value="card" name="payment_ch">по карте</option>
+                </select></p>
+              </div>
+              </form>
+            </div>
+            <div class="info_client">
+              <form>
+              <div class="form_left form_left_client">
+                <p><label id="name">Имя</label></p>
+                <p><label id="surname">Фамилия</label></p>
+                <p><label id="phone">Телефон</label></p>
+              </div>
+              <div class="form_right form_right_client">
+                <p><input type="text" id="name" size="15"></p>
+                <p><input type="text"  id="surname" size="15"></p>
+                <p><input type="text" id="phone" size="15"></p>
+              </div>
+               <p><input type="submit" value="Оформить заказ" class="show btn_forma"></p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container">
+      <div class="logo footer_logo"><a href="#"></a></div>
+      <div class="big_menu_footer">
+        <h3><a href="catalog.html">Каталог</a></h3>
+        <div class="menu_footer">
+          <a href="#">Рыбы</a><br>
+          <a href="#">Аквариумы</a><br>
+          <a href="#">Корма</a><br>
+        </div>  
+        <div class="menu_footer"> 
+          <a href="#">Оборудование</a><br>
+          <a href="#">Грунты и наполнители</a>
+        </div>
+      </div>
+      <div class="footer_contact">
+        <a href="#" class="call_footer">Заказать обратный звонок</a> <br>
+        <a href="#" class="contact-icon contact_odnoklassniki"></a>
+        <a href="#" class="contact-icon  contact_twitter"></a>
+        <a href="#" class="contact-icon contact_vk"></a>
+      </div>
+    </div>
+  </footer>
+</body>
